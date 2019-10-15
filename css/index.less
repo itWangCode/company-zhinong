@@ -142,6 +142,7 @@ section.content.container-fluid.flex.flex-space-between {
 
       .table-data {
         width: 100%;
+
         .table-data-title {
           position: relative;
           color: #00faff;
@@ -199,28 +200,33 @@ section.content.container-fluid.flex.flex-space-between {
             }
           }
         }
-        #pills-tabContent{
+
+        #pills-tabContent {
           width: 90%;
           margin: 0 5%;
-          .model-one{
+
+          .model-one {
             border-bottom: 1px solid rgba(0, 219, 234, .3);
-            .model-title{
+
+            .model-title {
               font-size: @font-size-16;
             }
-            .model-1{
-              ul{
+
+            .model-1 {
+              ul {
                 display: flex;
                 flex-wrap: wrap;
                 width: 100%;
                 font-size: @font-size-14;
                 color: #d4d4d4;
-              
-                li{
+
+                li {
                   display: flex;
                   justify-content: flex-start;
                   width: 40%;
                   margin-left: 10%;
-                  .my-warning{
+
+                  .my-warning {
                     width: 40px;
                     height: 20px;
                     padding: .1rem .2rem;
@@ -231,13 +237,13 @@ section.content.container-fluid.flex.flex-space-between {
                     border-radius: 10px;
                     font-size: @font-size-12;
                     margin-left: 5px;
-                    
+
                   }
                 }
               }
             }
           }
-       
+
         }
 
         #pills-tabContent {
@@ -519,7 +525,42 @@ section.content.container-fluid.flex.flex-space-between {
 
 
   .content-right {
-    // width: 29%;
-    // border: 1px solid #fff;
+    ul#pills-tab4 {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+      color: #fff;
+      background-color: @border-color;
+    }
+
+    .nav-link {
+      display: block;
+      padding: .4rem 1.4rem;
+    }
+
+    .nav-pills .nav-link {
+      border-radius: 20px;
+    }
+    .nav-link {
+      display: block;
+      padding: .4rem 1.4rem;
+      border: 1px solid rgba(0, 219, 234, 0.3);
+    }
+    .nav-item{
+      a.nav-link{
+        color: #efefef;
+      }
+    }
+    .table td, .table th {
+      padding: .35rem;
+      vertical-align: top;
+      border-top: 1px solid #dee2e6;
+      color: #efefef;
+      text-align: center;
+    }
   }
 }

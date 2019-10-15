@@ -34,4 +34,15 @@
   text-align: right;
 }
 
+.table-info, .table-info>td, .table-info>th {
+  background-color: rgba(0, 219, 234, .3);
+  color: #efefef;
+  text-align: center;
+}
+
+table.table.table-bordered {
+  width: 90%;
+  margin: 0 auto;
+}
+
 

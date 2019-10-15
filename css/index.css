@@ -374,3 +374,36 @@ section.content.container-fluid.flex.flex-space-between {
   align-items: center;
   justify-content: flex-start;
 }
+.content .content-right ul#pills-tab4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.content .content-right .nav-pills .nav-link.active,
+.content .content-right .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #95ffff;
+}
+.content .content-right .nav-link {
+  display: block;
+  padding: .4rem 1.4rem;
+}
+.content .content-right .nav-pills .nav-link {
+  border-radius: 20px;
+}
+.content .content-right .nav-link {
+  display: block;
+  padding: .4rem 1.4rem;
+  border: 1px solid rgba(0, 219, 234, 0.3);
+}
+.content .content-right .nav-item a.nav-link {
+  color: #efefef;
+}
+.content .content-right .table td,
+.content .content-right .table th {
+  padding: .35rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  color: #efefef;
+  text-align: center;
+}
