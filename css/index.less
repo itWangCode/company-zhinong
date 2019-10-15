@@ -209,6 +209,20 @@ html {
 
     .footer {
       height: 100%;
+      .footer-bottom {
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        border: none;
+        background: none;
+        margin-left: -14%;
+      }
+
+      .btn.focus,
+      .btn:focus {
+        outline: 0;
+        box-shadow: none;
+      }
 
       .content-footer-1 {
         height: 8%;
@@ -245,7 +259,16 @@ html {
           display: flex;
           flex: 1;
           align-items: center;
-          justify-content: center
+          justify-content: center;
+          .footer-bottom {
+            width: 100px;
+            height: 52px;
+            text-align: center;
+            border: none;
+            background: none;
+            margin-left: -14%;
+            margin-top: -10%;
+          }
           
         }
         .content-footer-3-right{
@@ -253,7 +276,6 @@ html {
           flex: 1;
           align-items: center;
           justify-content: flex-start;
-          
         }
       }
     }
