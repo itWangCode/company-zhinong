@@ -18,6 +18,11 @@ html {
 @font-size-18: 18px;
 @font-size-20: 20px;
 
+section.content.container-fluid.flex.flex-space-between {
+  display: flex;
+  justify-content: space-around;
+}
+
 .content {
   width: 100%;
   max-width: 1920px;
@@ -25,25 +30,249 @@ html {
   min-height: 1000px;
   background: url(../img/bg.png) no-repeat center;
   background-size: cover;
-  text-shadow: 6px 6px 20px #00d8ff;
+  // text-shadow: 6px 6px 20px #00d8ff;
 
   .content-left {
-    width: 29%;
-    border: 1px solid #fff;
-    
+
+    // width: 29%;
+    // border: 1px solid #fff;
+    .content-left-top {
+      width: 100%;
+      height: 300px;
+      position: relative;
+      top: 0;
+      left: 0;
+
+      .shelter-layer {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #00ced4;
+        border: 1px solid #2CFAFE;
+        opacity: .25;
+        border-radius: 2%;
+      }
+
+      .shelter-layer-border {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+
+        .border-top-left {
+          position: absolute;
+          top: -25px;
+          left: -25px;
+        }
+
+        .border-top-right {
+          position: absolute;
+          top: -25px;
+          right: -25px;
+        }
+
+        .border-bottom-left {
+          position: absolute;
+          bottom: -22px;
+          left: -25px;
+        }
+
+        .border-bottom-right {
+          position: absolute;
+          bottom: -25px;
+          right: -25px;
+        }
+      }
+
+      .table-data {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+
+        .table-data-title {
+          color: #00faff;
+          font-size: @font-size-20;
+          margin: 0 auto;
+          // position: relative;
+          // left: 50%;
+          // top: 10%;
+          // transform: translate(-10%,-50%);
+          margin-top: 6%;
+          background: url('../img/list/list_line.png') no-repeat bottom;
+
+          p {
+            position: relative;
+            left: 50%;
+            top: 10%;
+            transform: translate(-10%, -50%);
+          }
+        }
+
+        .my-table {
+          width: 80%;
+          color: #fff;
+          margin: 0 auto;
+
+          td,
+          th {
+            padding: .55rem;
+            border-top: 1px solid rgba(0, 219, 234, .3);
+          }
+
+          tr {
+            .my-td-border {
+              border-right: 1px solid rgba(0, 219, 234, .3);
+            }
+          }
+
+          tr:last-child {
+            border-bottom: 1px solid rgba(0, 219, 234, .3);
+          }
+        }
+      }
+
+    }
+
+    .content-left-bottom {
+      height: 570px;
+
+      .table-data {
+        width: 100%;
+        .table-data-title {
+          position: relative;
+          color: #00faff;
+          font-size: 20px;
+          margin: 0 auto;
+          margin-top: 6%;
+
+
+          .changeImage {
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+            position: relative;
+            bottom: 15px;
+            /* transform: translate(10%, -5%); */
+            border-radius: 40px;
+            background: url(../img/list/right.png) no-repeat center;
+          }
+
+          .my-image {
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+            position: relative;
+            bottom: 15px;
+            /* transform: translate(10%, -5%); */
+            border-radius: 40px;
+            background: url(../img/list/life.png) no-repeat center;
+
+
+          }
+
+          #pills-tab {
+
+            // width: 100%;
+            // text-align: center;
+            // margin: 0 auto;
+            // position: relative;
+            // bottom: 15px;
+            // /* transform: translate(10%, -5%); */
+            // border-radius: 40px;
+            // background: url(../img/list/life.png) no-repeat center;
+            .nav-item {
+              a {
+                color: #999;
+              }
+            }
+
+            .nav-link.active {
+              color: #fff;
+              background-color: unset;
+              // border-bottom-left-radius: 40px;
+              // border-top-left-radius: 40px;
+              // background: url('../img/list/lcon-tubiao-zuo.png') no-repeat center;
+            }
+          }
+        }
+        #pills-tabContent{
+          width: 90%;
+          margin: 0 5%;
+          .model-one{
+            border-bottom: 1px solid rgba(0, 219, 234, .3);
+            .model-title{
+              font-size: @font-size-16;
+            }
+            .model-1{
+              ul{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                font-size: @font-size-14;
+                color: #d4d4d4;
+              
+                li{
+                  display: flex;
+                  justify-content: flex-start;
+                  width: 40%;
+                  margin-left: 10%;
+                  .my-warning{
+                    width: 40px;
+                    height: 20px;
+                    padding: .1rem .2rem;
+                    background: red;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 10px;
+                    font-size: @font-size-12;
+                    margin-left: 5px;
+                    
+                  }
+                }
+              }
+            }
+          }
+       
+        }
+
+        #pills-tabContent {
+          height: 100%;
+          position: absolute;
+          top: 58px;
+        }
+      }
+    }
+
   }
 
-  .content-right {
-    width: 29%;
-    border: 1px solid #fff;
-  }
+
 
   main {
+    width: 100%;
     width: 668px;
     // border: 1px solid #fff;
     background: url('../img/pi.png') no-repeat center;
     height: 992px;
-    background-size: 100% 100%;
+
+    height: auto;
+    // background-size: 100% 100%;
+    // .main-bg{
+    //   position: relative;
+    //   top: 0;
+    //   left: 0; 
+    // }
+
+    // .main-container{
+    //   position: absolute;
+    //   // left: 50%;
+    //   // top: 50%;
+    //   // transform: translate(-50%,-50%) 
+    // }
 
     .content-top {
       height: 38%;
@@ -209,6 +438,7 @@ html {
 
     .footer {
       height: 100%;
+
       .footer-bottom {
         width: 35px;
         height: 35px;
@@ -235,6 +465,7 @@ html {
         height: 8%;
         display: flex;
         align-items: center;
+
         .footer-bottom {
           width: 35px;
           height: 35px;
@@ -251,15 +482,17 @@ html {
         }
       }
 
-      .content-footer-3{
+      .content-footer-3 {
         height: 8%;
         display: flex;
         align-items: center;
-        .content-footer-3-left{
+
+        .content-footer-3-left {
           display: flex;
           flex: 1;
           align-items: center;
           justify-content: center;
+
           .footer-bottom {
             width: 100px;
             height: 52px;
@@ -269,9 +502,10 @@ html {
             margin-left: -14%;
             margin-top: -10%;
           }
-          
+
         }
-        .content-footer-3-right{
+
+        .content-footer-3-right {
           display: flex;
           flex: 1;
           align-items: center;
@@ -281,5 +515,11 @@ html {
     }
 
 
+  }
+
+
+  .content-right {
+    // width: 29%;
+    // border: 1px solid #fff;
   }
 }
