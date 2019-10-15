@@ -14,8 +14,8 @@
 
 <body>
   <section class="content container-fluid flex flex-space-between">
-    <article class="content-left col-lg-3 col-md-12 col-6">
-      <section class="row mt-5">
+    <article class="content-left col-lg-3 col-md-6 col-6">
+      <section class="mt-5">
         <div class="content-left-top">
           <!-- <img src="https://static.runoob.com/images/mix/paris.jpg" class="img-fluid"> -->
           <div class="shelter-layer"></div>
@@ -71,7 +71,7 @@
         </div>
       </section>
 
-      <section class="row mt-5">
+      <section class="mt-5">
         <div class="content-left-top content-left-bottom">
           <!-- <img src="https://static.runoob.com/images/mix/paris.jpg" class="img-fluid"> -->
           <div class="shelter-layer"></div>
@@ -459,7 +459,7 @@
         </div>
       </section>
     </article>
-    <main class="col-lg-4 col-md-4 col-12">
+    <main class="col-lg-4 col-md-4 col-12" style="display: none">
       <!-- <img src="../img/pi.png" alt="" class="img-fluid main-bg"> -->
 
       <section class="content-top">
@@ -646,8 +646,12 @@
       </section>
 
     </main>
+
+    <article class="col-lg-6 col-md-6 col-12 mt-4">
+        <img src="../img/main/line.png" alt="" class="img-fluid main-bg flex m-auto">
+    </article>
     <article class="content-left content-right col-lg-3 col-md-3 col-6">
-      <section class="row mt-5">
+      <section class="mt-5">
             <div class="content-left-top content-left-bottom">
               <!-- <img src="https://static.runoob.com/images/mix/paris.jpg" class="img-fluid"> -->
               <div class="shelter-layer"></div>
@@ -889,7 +893,7 @@
             </div>
       </section>
 
-      <section class="row mt-5">
+      <section class="mt-5">
           <div class="content-left-top">
             <!-- <img src="https://static.runoob.com/images/mix/paris.jpg" class="img-fluid"> -->
             <div class="shelter-layer"></div>
@@ -900,47 +904,22 @@
               <img src="../img/list/bar_lower-right-corner.png" class="img-fluid border-bottom-right">
             </div>
             <article class="table-data">
-              <div class="table-data-title">
-                <p>外部环境</p>
-              </div>
-              <table class="table my-table">
-                <tbody>
-                  <tr>
-                    <td>温度:</td>
-                    <td class="my-td-border"></td>
-                    <td>风速:</td>
-                    <td></td>
-                  </tr>
-  
-                  <tr>
-                    <td>温度:</td>
-                    <td class="my-td-border"></td>
-                    <td>风向:</td>
-                    <td></td>
-                  </tr>
-  
-                  <tr>
-                    <td>降雨量:</td>
-                    <td class="my-td-border"></td>
-                    <td>大气压:</td>
-                    <td></td>
-                  </tr>
-  
-                  <tr>
-                    <td>光照强度:</td>
-                    <td class="my-td-border"></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-  
-                  <tr>
-                    <td>&nbsp;</td>
-                    <td class="my-td-border">&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                  </tr>
-                </tbody>
-              </table>
+                <ul class="nav nav-pills mb-3" id="pills-tab4" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" id="pills-home-tab4" data-toggle="pill" href="#pills-home4" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="pills-profile-tab4" data-toggle="pill" href="#pills-profile4" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="pills-contact-tab4" data-toggle="pill" href="#pills-contact4" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home4" role="tabpanel" aria-labelledby="pills-home-tab4">1...</div>
+                    <div class="tab-pane fade" id="pills-profile4" role="tabpanel" aria-labelledby="pills-profile-tab4">2...</div>
+                    <div class="tab-pane fade" id="pills-contact4" role="tabpanel" aria-labelledby="pills-contact-tab4">3...</div>
+                  </div>
             </article>
           </div>
         </section>
