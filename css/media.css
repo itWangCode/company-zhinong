@@ -1,0 +1,103 @@
+/* 
+// Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* // Large devices (desktops, 992px and up 1199.98) */
+@media (min-width: 992px) and (max-width: 1025px) {
+  .mt-5, .my-5 {
+    margin-top: 1.5rem!important;
+}
+.mt-3, .my-3 {
+  margin-top: .3rem!important;
+}
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: .25rem !important;
+}
+
+.content-left-top.content-left-top-3.content-left-bottom {
+  height: 410px !important;
+}
+
+table.table.table-bordered tr {
+  font-size: 12px;
+}
+
+
+#pills-tab4 .nav-item .nav-link {
+  display: block;
+  padding: .3rem 0.5rem !important;
+  font-size: 12px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: .3rem;
+}
+
+.content-left-top.content-left-top-2.content-left-bottom {
+  height: 496px !important;
+}
+tr.null-tr {
+  display: none;
+}
+
+.content .content-left .content-left-top .table-data .table-data-title p {
+  position: relative;
+  left: 40%;
+  top: 10%;
+  transform: translate(-10%, -40%);
+}
+.content-left-top.content-left-top-1 {
+  height: 200px !important;
+}
+
+  .content .content-left .content-left-top .table-data .my-table tbody tr {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .content .content-left .content-left-bottom .table-data #pills-tabContent .model-one .model-1 ul li .my-warning {
+    width: 40px;
+    height: 20px;
+    padding: .1rem .2rem;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .content .content-left .content-left-bottom .table-data #pills-tabContent .model-one .model-1 ul li {
+    display: flex;
+    justify-content: flex-start;
+    /* margin-left: 10%; */
+    font-size: 12px;
+    flex: 1;
+    width: 50%;
+  }
+
+  .content .content-left .content-left-bottom .table-data .table-data-title .my-image {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: 15px;
+    /* transform: translate(10%, -5%); */
+    border-radius: 40px;
+    background: url(../img/list/life.png) no-repeat center;
+    background-size: 100% 100%;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

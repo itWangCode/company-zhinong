@@ -1,3 +1,6 @@
+body{
+  cursor: pointer;
+}
 .flex{
   display: flex;
 }
@@ -43,6 +46,10 @@
 table.table.table-bordered {
   width: 90%;
   margin: 0 auto;
+}
+
+li{
+  cursor: pointer;
 }
 
 
