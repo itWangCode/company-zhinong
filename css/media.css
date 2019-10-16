@@ -156,6 +156,110 @@
     width: 100%;
   }
 
+  .content .main .main-bottom .main-bottom-right {
+    position: absolute;
+    left: 391%;
+    /* top: -20%; */
+    width: 100%;
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: space-around; */
+    font-size: 12px;
+}
+
+.content .main .main-bottom .main-bottom-right ul li .model-pool img {
+  width: 25px;
+  height: auto;
+  margin: 0;
+}
+
+.content .main .main-bottom .main-bottom-right ul li .model-beng.model-beng-1 img {
+  margin: 48% 0 20% 0;
+  width: 30px;
+  height: auto;
+}
+
+.content .main .main-bottom .main-bottom-center ul li .model-name {
+  width: 58px;
+  font-size: 12px;
+}
+.content .main .main-bottom .main-bottom-center {
+  position: absolute;
+  left: 96%;
+  top: -20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content .main .main-bottom .main-bottom-center ul .model-data.model-2 {
+  position: relative;
+  left: 38%;
+  width: 100%;
+}
+.content .main .main-bottom .main-bottom-center ul .model-data.model-3 {
+  position: relative;
+  left: 50%;
+  width: 100%;
+}
+
+.content .main .main-bottom .main-bottom-center ul .model-data.model-4 {
+  position: relative;
+  left: 60%;
+  width: 100%;
+}
+
+.content .main .main-bottom .main-bottom-center ul .model-beng-1-img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: auto;
+}
+
+.content .main .main-footer .main-footer-pool {
+  position: absolute;
+  bottom: 39%;
+  left: 37%;
+  transform: translate(0, -37%);
+}
+
+.content .main .main-footer .main-footer-pool img,.content .main .main-footer .main-footer-pool-2 img {
+  width: 40px;
+  height: auto;
+}
+
+.content .main .main-footer .main-footer-beng {
+  position: absolute;
+  bottom: 36%;
+  left: 38%;
+  transform: translate(0, -38%);
+}
+
+.content .main .main-footer .main-footer-beng img{
+  width: 25px;
+  height: auto;
+}
+
+.content .main .main-footer .main-footer-pool-2 {
+  position: absolute;
+  bottom: 28%;
+  left: 37%;
+  transform: translate(0, -37%);
+}
+
+.content .main .main-footer .main-footer-diefa {
+  position: absolute;
+  bottom: 28%;
+  left: 9%;
+  transform: translate(0, -9%);
+}
+
+.main-footer-diefa .main-footer-beng-img {
+  width: 60px;
+  height: auto;
+}
 
 
 

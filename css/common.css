@@ -7,6 +7,11 @@ body{
 .flex-align-items{
   align-items: center;
 }
+
+.flex-align-items-end{
+  align-items: flex-end;
+}
+
 .flex-start{
   justify-content: flex-start;
 }

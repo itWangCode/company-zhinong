@@ -616,10 +616,28 @@
             <img src="../img/main/pool-2.png" class="img-fluid">
           </div>
         </div>
-        <div class="main-bottom-right">
-          <ul>
+        <div class="main-bottom-center">
+          <ul class="flex">
             <li class="model-data model-1">
               <div class="model-name">模组一</div>
+              <div class="model-pool">
+                <img src="../img/main/model-pool.png" alt="" class="img-fluid model-pool-img" id="model-1">
+              </div>
+              <div class="model-beng model-beng-1">
+                <img src="../img/main/beng.png" alt="" class="img-fluid model-beng-1-img">
+                <button type="button" class="btn model-switch-btn-1" data-toggle="tooltip" data-html="true" title='
+                  <div style="width:200px">
+                    <a href="https://www.baidu.com">开</a>
+                    <a href="https://www.qq.com">关</a>
+                  </div>
+                '>
+                </button>
+              </div>
+              <div class="model-beng">水泵1</div>
+            </li>
+
+            <li class="model-data  model-2">
+              <div class="model-name">模组二</div>
               <div class="model-pool">
                 <img src="../img/main/model-pool.png" alt="" class="img-fluid model-pool-img">
               </div>
@@ -635,19 +653,102 @@
               </div>
               <div class="model-beng">水泵1</div>
             </li>
+
+            <li class="model-data  model-3">
+              <div class="model-name">模组三</div>
+              <div class="model-pool">
+                <img src="../img/main/model-pool.png" alt="" class="img-fluid model-pool-img">
+              </div>
+              <div class="model-beng model-beng-1">
+                <img src="../img/main/beng.png" alt="" class="img-fluid model-beng-1-img">
+                <button type="button" class="btn model-switch-btn-1" data-toggle="tooltip" data-html="true" title='
+                  <div style="width:200px">
+                    <a href="https://www.baidu.com">开</a>
+                    <a href="https://www.qq.com">关</a>
+                  </div>
+                '>
+                </button>
+              </div>
+              <div class="model-beng">水泵3</div>
+            </li>
+
+            <li class="model-data  model-4">
+              <div class="model-name">模组四</div>
+              <div class="model-pool">
+                <img src="../img/main/model-pool.png" alt="" class="img-fluid model-pool-img">
+              </div>
+              <div class="model-beng model-beng-1">
+                <img src="../img/main/beng.png" alt="" class="img-fluid model-beng-1-img">
+                <button type="button" class="btn model-switch-btn-1" data-toggle="tooltip" data-html="true" title='
+                  <div style="width:200px">
+                    <a href="https://www.baidu.com">开</a>
+                    <a href="https://www.qq.com">关</a>
+                  </div>
+                '>
+                </button>
+              </div>
+              <div class="model-beng">水泵1</div>
+            </li>
+
+
           </ul>
+        </div>
+
+        <div class="main-bottom-left main-bottom-right">
+          <div class="main-bottom-left-top flex flex-align-items flex-space-between">
+            <img src="../img/main/pool-2.png" class="img-fluid">
+            <div class="pool-2 mr-2">2号池</div>
+          </div>
+          <div class="main-bottom-left-bottom flex flex-align-items flex-space-between mt-3">
+            <img src="../img/main/pool-2.png" class="img-fluid">
+            <div class="pool-2 mr-2">2号池</div>
+          </div>
         </div>
       </section>
 
-      <section class="main-footer">
 
+      <section class="main-footer ">
+        <div class="main-footer-pool flex flex-align-items-end  flex-center">
+          <img src="../img/main/pool-2.png" class="img-fluid">
+          <div class="pool-2 ml-2">2号池</div>
+        </div>
+
+        <div class="main-footer-beng">
+          <img src="../img/main/beng.png" alt="" class="img-fluid main-footer-beng-img">
+          <button type="button" class="btn main-footer-beng-switch" data-toggle="tooltip" data-html="true" title='
+          <div style="width:200px">
+            <a href="https://www.baidu.com">开</a>
+            <a href="https://www.qq.com">关</a>
+          </div>
+        '>
+          </button>
+        </div>
+
+        <div class="main-footer-pool-2 flex flex-align-items-end  flex-center">
+          <img src="../img/main/pool-2.png" class="img-fluid">
+          <div class="pool-2 ml-2">水池</div>
+        </div>
+
+        <div class="main-footer-diefa">
+          <img src="../img/main/fa.png" alt="" class="img-fluid main-footer-beng-img">
+          <button type="button" class="btn main-footer-beng-switch" data-toggle="tooltip" data-html="true" title='
+          <div style="width:200px">
+            <a href="https://www.baidu.com">开</a>
+            <a href="https://www.qq.com">关</a>
+          </div>
+        '>
+          </button>
+          <div class="diefa-name text-center">蝶阀</div>
+        </div>
       </section>
+
+
     </article>
     <!-- 中间数据-->
 
 
     <!--👉右边默认数据 -->
-    <article class="content-left content-right col-lg-3 col-md-3 col-6">
+    <article class="content-left content-right col-lg-3 col-md-3 col-6" id="content-right-1">
       <section class="mt-5">
         <div class="content-left-top content-left-top-3 content-left-bottom">
           <!-- <img src="https://static.runoob.com/images/mix/paris.jpg" class="img-fluid"> -->
@@ -1040,172 +1141,183 @@
 
 
     <!-- 👉点击模组数据 -->
-    <article class="content-left content-right col-lg-3 col-md-3 col-6" style="display: none;">
-        <section class="mt-5">
-          <div class="content-left-top content-left-top-3 content-left-bottom">
-            <!-- <img src="https://static.runoob.com/images/mix/paris.jpg" class="img-fluid"> -->
-            <div class="shelter-layer"></div>
-            <div class="shelter-layer-border">
-              <img src="../img/list/bar_top-left-corner.png" class="img-fluid border-top-left">
-              <img src="../img/list/bar_upper-right-corner.png" class="img-fluid border-top-right">
-              <img src="../img/list/bar_lower-left-corner.png" class="img-fluid border-bottom-left">
-              <img src="../img/list/bar_lower-right-corner.png" class="img-fluid border-bottom-right">
-            </div>
-            <article class="table-data">
-                <div class="table-data-title">
-                    <p>模组数据</p>
-                  </div>
-  
-            </article>
+    <article class="content-left content-right col-lg-3 col-md-3 col-6" style="display: none;" id="content-right-2">
+      <section class="mt-5">
+        <div class="content-left-top content-left-top-3 content-left-bottom">
+          <!-- <img src="https://static.runoob.com/images/mix/paris.jpg" class="img-fluid"> -->
+          <div class="shelter-layer"></div>
+          <div class="shelter-layer-border">
+            <img src="../img/list/bar_top-left-corner.png" class="img-fluid border-top-left">
+            <img src="../img/list/bar_upper-right-corner.png" class="img-fluid border-top-right">
+            <img src="../img/list/bar_lower-left-corner.png" class="img-fluid border-bottom-left">
+            <img src="../img/list/bar_lower-right-corner.png" class="img-fluid border-bottom-right">
           </div>
-        </section>
-  
-        <section class="mt-5">
-          <div class="content-left-top content-left-top-4">
-            <!-- <img src="https://static.runoob.com/images/mix/paris.jpg" class="img-fluid"> -->
-            <div class="shelter-layer"></div>
-            <div class="shelter-layer-border">
-              <img src="../img/list/bar_top-left-corner.png" class="img-fluid border-top-left">
-              <img src="../img/list/bar_upper-right-corner.png" class="img-fluid border-top-right">
-              <img src="../img/list/bar_lower-left-corner.png" class="img-fluid border-bottom-left">
-              <img src="../img/list/bar_lower-right-corner.png" class="img-fluid border-bottom-right">
+          <article class="table-data">
+            <div class="table-data-title">
+              <p>模组一</p>
             </div>
-            <article class="table-data">
-              <ul class="nav nav-pills mb-3 mt-3" id="pills-tab4" role="tablist">
-                <li class="nav-item">
-                  <a class="nav-link active" id="pills-home-tab8" data-toggle="pill" href="#pills-home8" role="tab"
-                    aria-controls="pills-home" aria-selected="true">　任务　</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="pills-profile-tab9" data-toggle="pill" href="#pills-profile9" role="tab"
-                    aria-controls="pills-profile" aria-selected="false">　操作　</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="pills-contact-tab10" data-toggle="pill" href="#pills-contact10" role="tab"
-                    aria-controls="pills-contact" aria-selected="false">　故障　</a>
-                </li>
-              </ul>
-              <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-home8" role="tabpanel" aria-labelledby="pills-home-tab8">
-                  <table class="table table-bordered">
-                    <thead class="table-info">
-                      <tr>
-                        <th scope="col">序列</th>
-                        <th scope="col">时间</th>
-                        <th scope="col">品种</th>
-                        <th scope="col">数量</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Otto</td>
-                        <td>Thornton</td>
-                        <td>@mdo</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">4</th>
-                        <td>Otto</td>
-                        <td>Thornton</td>
-                        <td>@mdo</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div class="tab-pane fade" id="pills-profile9" role="tabpanel" aria-labelledby="pills-profile-tab9">
-                  <table class="table table-bordered">
-                    <thead class="table-info">
-                      <tr>
-                        <th scope="col">序列</th>
-                        <th scope="col">时间</th>
-                        <th scope="col">操作记录</th>
-                        <th scope="col">操作员</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Otto</td>
-                        <td>Thornton</td>
-                        <td>@mdo</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">4</th>
-                        <td>Otto</td>
-                        <td>Thornton</td>
-                        <td>@mdo</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div class="tab-pane fade" id="pills-contact10" role="tabpanel" aria-labelledby="pills-contact-tab10">
-                  <table class="table table-bordered">
-                    <thead class="table-info">
-                      <tr>
-                        <th scope="col">序列</th>
-                        <th scope="col">时间</th>
-                        <th scope="col">故障类型</th>
-                        <th scope="col">是否解决</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Otto</td>
-                        <td>Thornton</td>
-                        <td>@mdo</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">4</th>
-                        <td>Otto</td>
-                        <td>Thornton</td>
-                        <td>@mdo</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
+
+            <div class="slide-switch">
+              <div class="slide-switch-1">
+                <ul>
+                  <li>
+                    <label>鱼桶气泵1：</label>
+                    
+                  </li>
+                </ul>
               </div>
-            </article>
-          </div>
-        </section>
+            </div>
+        </div>
     </article>
-    <!-- 👉点击模组数据 -->
+    </div>
+  </section>
+
+  <section class="mt-5">
+    <div class="content-left-top content-left-top-4">
+      <!-- <img src="https://static.runoob.com/images/mix/paris.jpg" class="img-fluid"> -->
+      <div class="shelter-layer"></div>
+      <div class="shelter-layer-border">
+        <img src="../img/list/bar_top-left-corner.png" class="img-fluid border-top-left">
+        <img src="../img/list/bar_upper-right-corner.png" class="img-fluid border-top-right">
+        <img src="../img/list/bar_lower-left-corner.png" class="img-fluid border-bottom-left">
+        <img src="../img/list/bar_lower-right-corner.png" class="img-fluid border-bottom-right">
+      </div>
+      <article class="table-data">
+        <ul class="nav nav-pills mb-3 mt-3" id="pills-tab4" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="pills-home-tab8" data-toggle="pill" href="#pills-home8" role="tab"
+              aria-controls="pills-home" aria-selected="true">　任务　</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-profile-tab9" data-toggle="pill" href="#pills-profile9" role="tab"
+              aria-controls="pills-profile" aria-selected="false">　操作　</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-contact-tab10" data-toggle="pill" href="#pills-contact10" role="tab"
+              aria-controls="pills-contact" aria-selected="false">　故障　</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home8" role="tabpanel" aria-labelledby="pills-home-tab8">
+            <table class="table table-bordered">
+              <thead class="table-info">
+                <tr>
+                  <th scope="col">序列</th>
+                  <th scope="col">时间</th>
+                  <th scope="col">品种</th>
+                  <th scope="col">数量</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Otto</td>
+                  <td>Thornton</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Otto</td>
+                  <td>Thornton</td>
+                  <td>@mdo</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="tab-pane fade" id="pills-profile9" role="tabpanel" aria-labelledby="pills-profile-tab9">
+            <table class="table table-bordered">
+              <thead class="table-info">
+                <tr>
+                  <th scope="col">序列</th>
+                  <th scope="col">时间</th>
+                  <th scope="col">操作记录</th>
+                  <th scope="col">操作员</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Otto</td>
+                  <td>Thornton</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Otto</td>
+                  <td>Thornton</td>
+                  <td>@mdo</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="tab-pane fade" id="pills-contact10" role="tabpanel" aria-labelledby="pills-contact-tab10">
+            <table class="table table-bordered">
+              <thead class="table-info">
+                <tr>
+                  <th scope="col">序列</th>
+                  <th scope="col">时间</th>
+                  <th scope="col">故障类型</th>
+                  <th scope="col">是否解决</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Otto</td>
+                  <td>Thornton</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Otto</td>
+                  <td>Thornton</td>
+                  <td>@mdo</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  </article>
+  <!-- 👉点击模组数据 -->
   </section>
 
 

@@ -1,0 +1,53 @@
+  <li class="model-data model-2">
+              <div class="model-name">模组二</div>
+              <div class="model-pool">
+                <img src="../img/main/model-pool.png" alt="" class="img-fluid model-pool-img">
+              </div>
+              <div class="model-beng model-beng-2">
+                <img src="../img/main/beng.png" alt="" class="img-fluid model-beng-1-img">
+                <button type="button" class="btn model-switch-btn-2" data-toggle="tooltip" data-html="true" title='
+                  <div style="width:200px">
+                    <a href="https://www.baidu.com">开</a>
+                    <a href="https://www.qq.com">关</a>
+                  </div>
+                '>
+                </button>
+              </div>
+              <div class="model-beng">水泵2</div>
+            </li>
+
+            <li class="model-data model-3">
+              <div class="model-name">模组三</div>
+              <div class="model-pool">
+                <img src="../img/main/model-pool.png" alt="" class="img-fluid model-pool-img">
+              </div>
+              <div class="model-beng model-beng-3">
+                <img src="../img/main/beng.png" alt="" class="img-fluid model-beng-1-img">
+                <button type="button" class="btn model-switch-btn-3" data-toggle="tooltip" data-html="true" title='
+                  <div style="width:200px">
+                    <a href="https://www.baidu.com">开</a>
+                    <a href="https://www.qq.com">关</a>
+                  </div>
+                '>
+                </button>
+              </div>
+              <div class="model-beng">水泵3</div>
+            </li>
+
+            <li class="model-data model-4">
+              <div class="model-name">模组四</div>
+              <div class="model-pool">
+                <img src="../img/main/model-pool.png" alt="" class="img-fluid model-pool-img">
+              </div>
+              <div class="model-beng model-beng-4">
+                <img src="../img/main/beng.png" alt="" class="img-fluid model-beng-1-img">
+                <button type="button" class="btn model-switch-btn-4" data-toggle="tooltip" data-html="true" title='
+                  <div style="width:200px">
+                    <a href="https://www.baidu.com">开</a>
+                    <a href="https://www.qq.com">关</a>
+                  </div>
+                '>
+                </button>
+              </div>
+              <div class="model-beng">水泵4</div>
+            </li>

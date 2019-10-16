@@ -340,7 +340,7 @@ section.content.container-fluid.flex.flex-space-between {
   width: 50px;
   height: auto;
 }
-.content .main .main-bottom .main-bottom-right {
+.content .main .main-bottom .main-bottom-center {
   position: absolute;
   left: 250%;
   top: -16%;
@@ -349,30 +349,122 @@ section.content.container-fluid.flex.flex-space-between {
   align-items: center;
   justify-content: space-around;
 }
-.content .main .main-bottom .main-bottom-right ul li .model-name {
+.content .main .main-bottom .main-bottom-center ul li {
+  width: 43px !important;
+}
+.content .main .main-bottom .main-bottom-center ul .btn.focus,
+.content .main .main-bottom .main-bottom-center ul .btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.content .main .main-bottom .main-bottom-center ul li .model-name {
   width: 0;
 }
-.content .main .main-bottom .main-bottom-right ul li .model-pool img {
+.content .main .main-bottom .main-bottom-center ul li .model-pool img {
   width: 30px;
   height: auto;
-  margin: 8% 0;
-}
-.content .main .main-bottom .main-bottom-right ul li .model-beng.model-beng-1 img {
   margin: 20% 0;
 }
-.content .main .main-bottom .main-bottom-right ul .model-data.model-1 {
-  position: relative;
-  left: 6%;
+.content .main .main-bottom .main-bottom-center ul li .model-beng img {
+  margin: 20% 0;
 }
-.content .main .main-bottom .main-bottom-right ul .model-beng-1-img {
+.content .main .main-bottom .main-bottom-center ul .model-data.model-1 {
+  position: relative;
+  left: 31%;
+  width: 100%;
+}
+.content .main .main-bottom .main-bottom-center ul .model-data.model-2 {
+  position: relative;
+  left: 56%;
+  width: 100%;
+}
+.content .main .main-bottom .main-bottom-center ul .model-data.model-3 {
+  position: relative;
+  left: 80%;
+  width: 100%;
+}
+.content .main .main-bottom .main-bottom-center ul .model-data.model-4 {
+  position: relative;
+  left: 103%;
+  width: 100%;
+}
+.content .main .main-bottom .main-bottom-center ul .model-beng-1-img {
   position: relative;
   top: 0;
   left: 0;
 }
-.content .main .main-bottom .main-bottom-right ul .model-beng-1-img .btn.model-switch-btn-1 {
+.content .main .main-bottom .main-bottom-center ul .btn.model-switch-btn-1 {
   width: 39px;
   height: 45px;
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  bottom: 100%;
   left: 0;
+  margin-top: -100%;
+}
+.content .main .main-bottom .main-bottom-right {
+  position: absolute;
+  left: 640%;
+  top: 0;
+  width: 100%;
+}
+.content .main .main-footer .btn.focus,
+.content .main .main-footer .btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.content .main .main-footer .main-footer-pool {
+  position: absolute;
+  bottom: 17%;
+  left: 41%;
+  transform: translate(0, -41%);
+}
+.content .main .main-footer .main-footer-pool img {
+  width: 50px;
+  height: auto;
+}
+.content .main .main-footer .main-footer-beng {
+  position: absolute;
+  bottom: 12%;
+  left: 41%;
+  transform: translate(0, -41%);
+}
+.content .main .main-footer .main-footer-beng .main-footer-beng-img {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.content .main .main-footer .main-footer-beng .main-footer-beng-switch {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 39px;
+  height: 45px;
+}
+.content .main .main-footer .main-footer-pool-2 {
+  position: absolute;
+  bottom: 3%;
+  left: 41%;
+  transform: translate(0, -41%);
+}
+.content .main .main-footer .main-footer-pool-2 img {
+  width: 50px;
+  height: auto;
+}
+.content .main .main-footer .main-footer-diefa {
+  position: absolute;
+  bottom: 4%;
+  left: 20%;
+  transform: translate(0, -20%);
+}
+.content .main .main-footer .main-footer-diefa .main-footer-beng-img {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.content .main .main-footer .main-footer-diefa .main-footer-beng-switch {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 60px;
 }
