@@ -97,6 +97,28 @@ tr.null-tr {
     background: url(../img/list/life.png) no-repeat center;
     background-size: 100% 100%;
   }
+
+  .content .main .main-top {
+    position: absolute;
+    top: 0;
+    width: 79%;
+    height: 26%;
+    margin: 0;
+}
+img.img-fluid.beng-img-pos {
+  width: 24px;
+  height: auto;
+}
+
+.content .main .main-top ul li .beng-img {
+  margin: 25% 0;
+  width: 26px;
+  height: 27px;
+}
+.peng img {
+  width: 50px;
+  height: auto;
+}
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */

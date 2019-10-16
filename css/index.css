@@ -176,204 +176,6 @@ section.content.container-fluid.flex.flex-space-between {
   position: absolute;
   top: 58px;
 }
-.content main {
-  width: 100%;
-  width: 668px;
-  background: url('../img/pi.png') no-repeat center;
-  height: 992px;
-  height: auto;
-}
-.content main .content-top {
-  height: 38%;
-  position: relative;
-  left: 0;
-  top: 0;
-}
-.content main .content-top ul li {
-  width: 10%;
-}
-.content main .content-top ul .beng-name-top {
-  text-align: center;
-}
-.content main .content-top ul .peng-bottom,
-.content main .content-top ul .peng-top,
-.content main .content-top ul .peng-top2,
-.content main .content-top ul .peng-top4 {
-  margin-top: 30%;
-  width: 35px;
-  height: 35px;
-  text-align: center;
-  border: none;
-  background: none;
-}
-.content main .content-top ul .btn.focus,
-.content main .content-top ul .btn:focus {
-  outline: 0;
-  box-shadow: none;
-}
-.content main .content-top ul .peng-name1,
-.content main .content-top ul .peng-name3 {
-  margin-top: 90%;
-  width: 2%;
-}
-.content main .content-top ul .peng-name4 {
-  margin: 0 auto;
-  margin-top: -30%;
-  width: 2%;
-}
-.content main .content-top ul .peng-name2 {
-  width: 2%;
-  margin: 0 auto;
-}
-.content main .content-top ul .peng-top {
-  margin-top: 65%;
-}
-.content main .content-top ul .peng-top2 {
-  margin-top: 154%;
-}
-.content main .content-top ul .peng-top4 {
-  margin-top: 154%;
-}
-.content main .content-top ul li:nth-child(1) {
-  position: absolute;
-  top: 65px;
-  left: 24%;
-}
-.content main .content-top ul li:nth-child(2) {
-  position: absolute;
-  top: 65px;
-  left: 34%;
-}
-.content main .content-top ul li:nth-child(3) {
-  position: absolute;
-  top: 65px;
-  left: 46%;
-}
-.content main .content-top ul li:nth-child(4) {
-  position: absolute;
-  top: 112px;
-  left: 57%;
-}
-.content main .content-center {
-  height: 10%;
-  margin-left: 5%;
-}
-.content main .content-bottom {
-  height: 24%;
-}
-.content main .content-bottom .content-bottom-left {
-  width: 25%;
-  text-align: left;
-  position: relative;
-  left: -16px;
-}
-.content main .content-bottom .content-bottom-left .content-bottom-left-top {
-  margin-top: 24%;
-}
-.content main .content-bottom .content-bottom-left .content-bottom-left-bottom {
-  margin-top: 40%;
-  margin-right: 2%;
-}
-.content main .content-bottom .content-bottom-center {
-  width: 56%;
-}
-.content main .content-bottom .content-bottom-center ul li {
-  width: 20%;
-}
-.content main .content-bottom .content-bottom-center ul li .modules-name {
-  width: 2%;
-  font-size: 12px;
-}
-.content main .content-bottom .content-bottom-center ul li .modules-btn {
-  margin-top: 170%;
-  width: 35px;
-  height: 35px;
-  text-align: center;
-  border: none;
-  background: none;
-}
-.content main .content-bottom .content-bottom-center ul li .btn.focus,
-.content main .content-bottom .content-bottom-center ul li .btn:focus {
-  outline: 0;
-  box-shadow: none;
-}
-.content main .content-bottom .content-bottom-right {
-  width: 20%;
-  margin-left: 0%;
-}
-.content main .content-bottom .content-bottom-right .content-bottom-right-top {
-  margin-top: 30%;
-}
-.content main .content-bottom .content-bottom-right .content-bottom-right-bottom {
-  margin-top: 50%;
-  margin-right: 2%;
-}
-.content main .footer {
-  height: 100%;
-}
-.content main .footer .footer-bottom {
-  width: 35px;
-  height: 35px;
-  text-align: center;
-  border: none;
-  background: none;
-  margin-left: -14%;
-}
-.content main .footer .btn.focus,
-.content main .footer .btn:focus {
-  outline: 0;
-  box-shadow: none;
-}
-.content main .footer .content-footer-1 {
-  height: 8%;
-  display: flex;
-  align-items: flex-end;
-  margin-left: 5%;
-}
-.content main .footer .content-footer-2 {
-  height: 8%;
-  display: flex;
-  align-items: center;
-}
-.content main .footer .content-footer-2 .footer-bottom {
-  width: 35px;
-  height: 35px;
-  text-align: center;
-  border: none;
-  background: none;
-  margin-left: -14%;
-}
-.content main .footer .content-footer-2 .btn.focus,
-.content main .footer .content-footer-2 .btn:focus {
-  outline: 0;
-  box-shadow: none;
-}
-.content main .footer .content-footer-3 {
-  height: 8%;
-  display: flex;
-  align-items: center;
-}
-.content main .footer .content-footer-3 .content-footer-3-left {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-}
-.content main .footer .content-footer-3 .content-footer-3-left .footer-bottom {
-  width: 100px;
-  height: 52px;
-  text-align: center;
-  border: none;
-  background: none;
-  margin-left: -14%;
-  margin-top: -10%;
-}
-.content main .footer .content-footer-3 .content-footer-3-right {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: flex-start;
-}
 .content .content-right ul#pills-tab4 {
   display: flex;
   align-items: center;
@@ -406,4 +208,51 @@ section.content.container-fluid.flex.flex-space-between {
   border-top: 1px solid #dee2e6;
   color: #efefef;
   text-align: center;
+}
+.content .main .main-bg {
+  position: relative;
+}
+.content .main .main-top {
+  position: absolute;
+  top: 0;
+  width: 57%;
+  height: 34%;
+  margin: 0 15%;
+}
+.content .main .main-top ul {
+  align-items: center;
+  justify-content: space-between;
+}
+.content .main .main-top ul li {
+  height: 100%;
+}
+.content .main .main-top ul li .beng-img {
+  margin: 25% 0;
+  width: 39px;
+  height: 45px;
+}
+.content .main .main-top ul li .beng-img .beng-img-pos {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.content .main .main-top ul li .beng-img .switch-btn {
+  width: 39px;
+  height: 45px;
+  position: absolute;
+  left: 2%;
+  top: 12%;
+}
+.content .main .main-top ul li .peng {
+  margin-left: -10px;
+  padding-bottom: 25%;
+}
+.content .main .main-top ul li .peng-name {
+  width: 0;
+}
+.content .main .main-top ul li .switch-btn-2 {
+  position: absolute;
+  left: 3%;
+  width: 39px;
+  height: 45px;
 }
