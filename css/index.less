@@ -302,8 +302,46 @@ section.content.container-fluid.flex.flex-space-between {
       text-align: center;
     }
 
-    
+
   }
+
+  #content-right-2 {
+    .lcs_switch.lcs_on {
+      background: @border-color;
+      box-shadow: 0 0 2px @border-color inset;
+    }
+
+    .slide-switch-1 {
+      border-bottom: 1px solid @border-color ;
+      width: 80%;
+      margin: 0 auto;
+
+      ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        line-height: 2.2;
+
+        li {
+          label {
+            width: 140px;
+          }
+        }
+      }
+    }
+
+    .slide-switch-2 {
+      .slide-switch-1
+    }
+
+    .slide-switch-3 {
+      .slide-switch-1;
+      border-bottom: none;
+    }
+
+  }
+
+  
 
 
 
@@ -485,14 +523,19 @@ section.content.container-fluid.flex.flex-space-between {
         display: flex;
         align-items: center;
         justify-content: space-around;
+
         ul li {
           width: 43px !important;
-      }
+        }
+
         ul {
-          .btn.focus, .btn:focus {
+
+          .btn.focus,
+          .btn:focus {
             outline: 0;
             box-shadow: none;
-        }
+          }
+
           li {
             .model-name {
               width: 0;
@@ -511,7 +554,7 @@ section.content.container-fluid.flex.flex-space-between {
                 margin: 20% 0;
               }
             }
-            
+
           }
 
           .model-data.model-1 {
@@ -524,25 +567,26 @@ section.content.container-fluid.flex.flex-space-between {
             position: relative;
             left: 56%;
             width: 100%;
-        }
+          }
 
-        .model-data.model-3 {
-          position: relative;
-          left: 80%;
-          width: 100%;
-      }
+          .model-data.model-3 {
+            position: relative;
+            left: 80%;
+            width: 100%;
+          }
 
-      .model-data.model-4{
-        position: relative;
-        left: 103%;
-        width: 100%;
-    }
+          .model-data.model-4 {
+            position: relative;
+            left: 103%;
+            width: 100%;
+          }
 
           .model-beng-1-img {
             position: relative;
             top: 0;
             left: 0;
           }
+
           .btn.model-switch-btn-1 {
             width: 39px;
             height: 45px;
@@ -553,42 +597,49 @@ section.content.container-fluid.flex.flex-space-between {
           }
         }
       }
+
       .main-bottom-right {
         position: absolute;
         left: 640%;
         top: 0;
         width: 100%;
-    }
+      }
 
     }
 
-    .main-footer{
+    .main-footer {
+
       .btn.focus,
       .btn:focus {
         outline: 0;
         box-shadow: none;
       }
-      .main-footer-pool{
+
+      .main-footer-pool {
         position: absolute;
         bottom: 17%;
         left: 41%;
-        transform: translate(0,-41%);
-        img{
-          width:50px;
+        transform: translate(0, -41%);
+
+        img {
+          width: 50px;
           height: auto;
         }
       }
-      .main-footer-beng{
+
+      .main-footer-beng {
         position: absolute;
         bottom: 12%;
         left: 41%;
-        transform: translate(0,-41%);
-        .main-footer-beng-img{
+        transform: translate(0, -41%);
+
+        .main-footer-beng-img {
           position: relative;
           left: 0;
           top: 0;
         }
-        .main-footer-beng-switch{
+
+        .main-footer-beng-switch {
           position: absolute;
           left: 0;
           top: 0;
@@ -596,27 +647,32 @@ section.content.container-fluid.flex.flex-space-between {
           height: 45px;
         }
       }
-      .main-footer-pool-2{
+
+      .main-footer-pool-2 {
         position: absolute;
         bottom: 3%;
         left: 41%;
-        transform: translate(0,-41%);
-        img{
-          width:50px;
+        transform: translate(0, -41%);
+
+        img {
+          width: 50px;
           height: auto;
         }
       }
-      .main-footer-diefa{
+
+      .main-footer-diefa {
         position: absolute;
         bottom: 4%;
         left: 20%;
         transform: translate(0, -20%);
-        .main-footer-beng-img{
+
+        .main-footer-beng-img {
           position: relative;
           left: 0;
           top: 0;
         }
-        .main-footer-beng-switch{
+
+        .main-footer-beng-switch {
           position: absolute;
           left: 0;
           top: 0;
@@ -624,7 +680,7 @@ section.content.container-fluid.flex.flex-space-between {
           height: 60px;
         }
       }
-     
+
 
     }
 
