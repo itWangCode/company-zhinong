@@ -1,23 +1,5 @@
 $(document).ready(function () {
   $('[data-toggle="tooltip"]').tooltip();
-  // $('#pills-tab01 .nav-item').click(function(){
-  //   if($('#pills-tab01 .nav-item a').is('.active')){
-  //     $('#pills-tab01').removeClass("my-image");
-  //     // $('#pills-tab').addClass("changeImage");
-  //   }else if($('#pills-tab01 .nav-item a').is('.active')){
-  //     $('#pills-tab01').removeClass("changeImage");
-  //     // $('#pills-tab').addClass("my-image");
-  //   }
-  // })
-
-  // $('#pills-tab01 .nav-item a').click(function(){
-  //   console.log($('#pills-tab01 .nav-item a').is('.active'));
-  //   if($('#pills-tab01 .nav-item a').is('.active')==true){
-  //     $('#pills-tab01').css('background','url(../img/list/life.png) no-repeat center');
-  //   }else{
-  //     $('#pills-tab01').css('background','url(../img/list/right.png) no-repeat center');
-  //   }
-  // })
 
   $('#pills-tab01 .nav-item  a').on('click', function (e) {
     e.preventDefault();
@@ -35,6 +17,45 @@ $(document).ready(function () {
 
     $(this).tab('show')
   })
+
+
+
+  $('#pills-tab23 .nav-item  a').on('click', function (e) {
+    e.preventDefault();
+    console.log($(this).tab('show')[0].id);
+  
+    let isChange = $(this).tab('show')[0].id === 'pills-home-tab2';
+    console.log(isChange);
+    if (isChange===true) {
+      $('#pills-tab23').removeClass("changeImage");
+      $('#pills-tab23').addClass("my-image");
+    } else if (isChange===false) {
+      $('#pills-tab23').removeClass("my-image");
+      $('#pills-tab23').addClass("changeImage");
+    }
+
+    $(this).tab('show')
+  })
+
+
+  $('#pills-tab78 .nav-item  a').on('click', function (e) {
+    e.preventDefault();
+    console.log($(this).tab('show')[0].id);
+  
+    let isChange = $(this).tab('show')[0].id === 'pills-home-tab7';
+    console.log(isChange);
+    if (isChange===true) {
+      $('#pills-tab78').removeClass("changeImage");
+      $('#pills-tab78').addClass("my-image");
+    } else if (isChange===false) {
+      $('#pills-tab78').removeClass("my-image");
+      $('#pills-tab78').addClass("changeImage");
+    }
+
+    $(this).tab('show')
+  })
+
+  
 
   $(".imgclick").toggle(function () {
     $(this).attr("src", "img/close.png");
